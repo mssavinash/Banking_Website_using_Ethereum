@@ -1,0 +1,71 @@
+{
+  "accounts": {
+    "account{0}": "0xff44923B96435803dC1f5Cc88499cACC8fBEcd6e"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1626933945389,
+      "record": {
+        "value": "0",
+        "parameters": [],
+        "abi": "0xb07ea26f3b5e0e606d37d05f6c30f0bc6624c5c8927416d2e0607f7a53ef248b",
+        "contractName": "BemaBank",
+        "bytecode": "608060405234801561001057600080fd5b5060016000819055506102e9806100286000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806312065fe0146100465780637e62eab814610064578063f04991f014610080575b600080fd5b61004e61009c565b60405161005b9190610120565b60405180910390f35b61007e600480360381019061007991906100e8565b6100a5565b005b61009a600480360381019061009591906100e8565b6100bc565b005b60008054905090565b806000546100b391906101cf565b60008190555050565b806000546100ca919061013b565b60008190555050565b6000813590506100e28161029c565b92915050565b6000602082840312156100fa57600080fd5b6000610108848285016100d3565b91505092915050565b61011a81610263565b82525050565b60006020820190506101356000830184610111565b92915050565b600061014682610263565b915061015183610263565b9250817f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0383136000831215161561018c5761018b61026d565b5b817f80000000000000000000000000000000000000000000000000000000000000000383126000831216156101c4576101c361026d565b5b828201905092915050565b60006101da82610263565b91506101e583610263565b9250827f8000000000000000000000000000000000000000000000000000000000000000018212600084121516156102205761021f61026d565b5b827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0182136000841216156102585761025761026d565b5b828203905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6102a581610263565b81146102b057600080fd5b5056fea264697066735822122039a0268af4d81e5c7cba32d5cb3e51e2b6150e8f326a0d93bedffde27ded401764736f6c63430008040033",
+        "linkReferences": {},
+        "name": "",
+        "inputs": "()",
+        "type": "constructor",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xb07ea26f3b5e0e606d37d05f6c30f0bc6624c5c8927416d2e0607f7a53ef248b": [
+      {
+        "inputs": [
+          {
+            "internalType": "int256",
+            "name": "depositMoney",
+            "type": "int256"
+          }
+        ],
+        "name": "deposit",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "int256",
+            "name": "withdrawMoney",
+            "type": "int256"
+          }
+        ],
+        "name": "withdraw",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getBalance",
+        "outputs": [
+          {
+            "internalType": "int256",
+            "name": "",
+            "type": "int256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
